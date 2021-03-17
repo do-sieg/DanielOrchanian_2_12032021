@@ -9,15 +9,17 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
     <title>Reservia</title>
 </head>
 
 <body>
-
+    <!-- Header -->
     <header>
         <div class="header-top">
             <img src="images/logo/Reservia.svg" alt="Reservia" />
             <div class="header-links">
+                <!-- Navigation (Desktop) -->
                 <nav class="nav-desktop">
                     <a href="#housing">Hébergements</a>
                     <a href="#activities">Activités</a>
@@ -25,18 +27,20 @@
                 <a id="signup">S'inscrire</a>
             </div>
         </div>
+        <!-- Navigation (mobile) -->
         <nav class="nav-mobile">
             <a href="#housing">Hébergements</a>
             <a href="#activities">Activités</a>
         </nav>
     </header>
 
-
+    <!-- Main - Top -->
     <main>
         <div class="top-container">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre-ville ou en pleine nature</p>
 
+            <!-- Location search bar -->
             <div class="location-bar">
                 <i id="marker" class="fas fa-map-marker-alt"></i>
                 <input type="text" value="Marseille, France" />
@@ -44,6 +48,7 @@
                 <button class="search-btn search-btn-mobile"><i id="search" class="fas fa-search"></i></button>
             </div>
 
+            <!-- Filters -->
             <div class="filters-box">
                 <h3>Filtres</h3>
                 <div class="filters-list">
@@ -62,13 +67,17 @@
                 </div>
             </div>
 
+            <!-- Information -->
             <div class="info">
                 <i class="fas fa-info"></i>
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
         </div>
 
+        <!-- Main - Middle -->
         <div class="middle-container">
+
+            <!-- Popular locations -->
             <div class="popular">
                 <div class="popular-title-container">
                     <h2>Les plus populaires</h2>
@@ -77,7 +86,8 @@
 
                 <div class="cards-list">
                     <a class="card card-horz card-padding" href="#">
-                        <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin" />
+                        <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                            alt="Hôtel Le soleil du matin" />
                         <div class="card-info">
                             <div>
                                 <h3>Hôtel Le soleil du matin</h3>
@@ -94,7 +104,8 @@
                     </a>
 
                     <a class="card card-horz card-padding" href="#">
-                        <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambre d'hôtes" />
+                        <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                            alt="Au coeur de l'eau Chambre d'hôtes" />
                         <div class="card-info">
                             <div>
                                 <h3>Au coeur de l'eau Chambre d'hôtes</h3>
@@ -111,7 +122,8 @@
                     </a>
 
                     <a class="card card-horz card-padding" href="#">
-                        <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel tout bleu et Blanc" />
+                        <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                            alt="Hôtel tout bleu et Blanc" />
                         <div class="card-info">
                             <div>
                                 <h3>Hôtel tout bleu et Blanc</h3>
@@ -129,11 +141,13 @@
                 </div>
             </div>
 
+            <!-- Housing panel -->
             <div id="housing" class="housing">
                 <h2>Hébergements à Marseille</h2>
                 <div class="cards-list">
                     <a class="card card-vert card-padding" href="#">
-                        <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière" />
+                        <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                            alt="Auberge la Cannebière" />
                         <div class="card-info">
                             <div>
                                 <h3>Auberge la Cannebière</h3>
@@ -150,7 +164,8 @@
                     </a>
 
                     <a class="card card-vert card-padding" href="#">
-                        <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port" />
+                        <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                            alt="Hôtel du port" />
                         <div class="card-info">
                             <div>
                                 <h3>Hôtel du port</h3>
@@ -167,7 +182,8 @@
                     </a>
 
                     <a class="card card-vert card-padding" href="#">
-                        <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes" />
+                        <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                            alt="Hôtel Les mouettes" />
                         <div class="card-info">
                             <div>
                                 <h3>Hôtel Les mouettes</h3>
@@ -184,7 +200,8 @@
                     </a>
 
                     <a class="card card-vert card-padding" href="#">
-                        <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer" />
+                        <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                            alt="Hôtel de la mer" />
                         <div class="card-info">
                             <div>
                                 <h3>Hôtel de la mer</h3>
@@ -201,7 +218,8 @@
                     </a>
 
                     <a class="card card-vert card-padding" href="#">
-                        <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier" />
+                        <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                            alt="Auberge Le Panier" />
                         <div class="card-info">
                             <div>
                                 <h3>Auberge Le Panier</h3>
@@ -218,7 +236,8 @@
                     </a>
 
                     <a class="card card-vert card-padding" href="#">
-                        <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina" />
+                        <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                            alt="Hôtel chez Amina" />
                         <div class="card-info">
                             <div>
                                 <h3>Hôtel chez Amina</h3>
@@ -239,6 +258,7 @@
             </div>
         </div>
 
+        <!-- Activities panel -->
         <div id="activities" class="bottom-container">
             <h2>Activités à Marseille</h2>
             <div class="cards-list">
@@ -250,34 +270,35 @@
                 </a>
 
                 <div class="inner-group">
-
                     <a class="card card-vert" href="#">
-                        <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues" />
+                        <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                            alt="Fort de Pomègues" />
                         <div class="card-info">
                             <h3>Fort de Pomègues</h3>
                         </div>
                     </a>
 
                     <a class="card card-vert" href="#">
-                        <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul" />
+                        <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                            alt="Îles du Frioul" />
                         <div class="card-info">
                             <h3>Îles du Frioul</h3>
                         </div>
                     </a>
-
                 </div>
 
                 <a class="card card-vert" href="#">
-                    <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques" />
+                    <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                        alt="Parc National des Calanques" />
                     <div class="card-info">
                         <h3>Parc National des Calanques</h3>
                     </div>
                 </a>
 
                 <div class="inner-group">
-
                     <a class="card card-vert" href="#">
-                        <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde" />
+                        <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                            alt="Notre-Dame-de-la-Garde" />
                         <div class="card-info">
                             <h3>Notre-Dame-de-la-Garde</h3>
                         </div>
@@ -289,7 +310,6 @@
                             <h3>Parc Longchamp</h3>
                         </div>
                     </a>
-
                 </div>
             </div>
 
@@ -297,6 +317,7 @@
 
     </main>
 
+    <!-- Footer -->
     <footer>
         <div class="link-group">
             <h3>À propos</h3>

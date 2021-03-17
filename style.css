@@ -6,7 +6,6 @@
 body {
     margin: 0;
     font-family: 'Raleway';
-    /* font-size: medium; */
 }
 
 a {
@@ -16,7 +15,6 @@ a {
 
 h1 {
     font-size: larger;
-    /* margin: 0; */
 }
 
 h2 {
@@ -26,7 +24,6 @@ h2 {
 
 h3 {
     font-size: medium;
-    /* margin: 0; */
 }
 
 
