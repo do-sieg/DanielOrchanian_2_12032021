@@ -182,13 +182,6 @@ nav.nav-mobile a:hover {
 }
 
 
-/* Main(mobile) */
-main {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
-
 /* Main - Top (mobile) */
 main .top-container {
     padding: 20px 20px 0;
@@ -592,6 +585,14 @@ footer .link-group a {
 
 /* LARGE --------------------------------------------------- */
 @media (min-width: 1200px) {
+
+    .housing .cards-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 29%);
+    }
+}
+
+@media (min-width: 1240px) {
 
     .housing .cards-list {
         display: grid;
